@@ -1,0 +1,32 @@
+<nav class="navbar header sticky navbar-expand-lg" [ngClass]="isBottom ? 'bottom' : 'top'">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img width="250px" src="../../assets/logo.png" alt="">
+        </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse topmenu" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+            <div class="d-flex header_right" [ngClass]="isBottom ? 'headerbtn' : ''">
+                <a class="trybtn">TRY FOR FREE</a>
+                <a class="loginbtn" type="submit">Login</a>
+            </div>
+        </div>
+    </div>
+</nav>

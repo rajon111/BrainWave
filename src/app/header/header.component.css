@@ -1,0 +1,114 @@
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    z-index: 9;
+}
+
+
+
+.top {
+    background-color: transparent;
+}
+
+.bottom {
+    transition: all 0.3s;
+    background-color: #FDFFFF;
+    box-shadow: 2px 5px 5px 0px rgba(179, 179, 179, 0.48);
+    -webkit-box-shadow: 2px 5px 5px 0px rgba(179, 179, 179, 0.48);
+    -moz-box-shadow: 2px 5px 5px 0px rgba(179, 179, 179, 0.48);
+}
+
+.headerbtn a.trybtn {
+
+    border: #f17f34 solid 2px !important;
+    color: #f17f34 !important;
+}
+
+.headerbtn a.loginbtn {
+    color: #f17f34 !important;
+}
+
+
+.topmenu ul li {
+    font-size: 16px;
+}
+
+.topmenu ul li a {
+    color: #4b4b4b;
+    list-style: none;
+    /* padding: 0 0 20px 0; */
+    margin: 0 15px 0 15px;
+    padding-left: 10px;
+    padding-right: 20px;
+    float: left;
+    border-bottom: transparent solid 2px;
+    font-size: 16px;
+}
+
+.topmenu ul li a:hover {
+    color: #f17f34;
+    border-bottom: #f17f34 solid 2px;
+    text-decoration: none;
+}
+
+.header_right a.trybtn {
+    cursor: pointer;
+    border: #fff solid 2px;
+    color: #fff;
+    /* color: #000; */
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 36px;
+    width: 171px;
+    height: 38px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header_right a.trybtn:hover {
+    border: #000 solid 2px;
+    color: #000;
+}
+
+.header_right a.loginbtn {
+    color: #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    line-height: 36px;
+    margin-left: 30px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 700;
+}
+
+.header_right a.loginbtn:hover {
+    color: #000;
+}
+
+
+
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+
+/* 
+============================================
+============================================
+*/
+
+@media screen and (max-width: 480px) {
+
+    .header_right a.loginbtn,
+    .header_right a.trybtn {
+        color: #000;
+    }
+
+    .header_right a.trybtn {
+        border: #000 solid 2px;
+    }
+}

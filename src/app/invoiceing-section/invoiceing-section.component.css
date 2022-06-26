@@ -1,0 +1,156 @@
+a {
+    text-decoration: none;
+}
+
+.invoicing_section {
+    padding: 9.5% 0 2% 0;
+}
+
+.invoicingboxhome h1 {
+    color: #000;
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 50px;
+}
+
+.invoicingboxhome h1 span {
+    color: #e95d01;
+}
+
+.invoicingboxhome p {
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.invoicingbox ul {
+    margin-top: 30px;
+    float: left;
+    width: 100%;
+    margin-bottom: 45px;
+}
+
+
+.invoicingbox li {
+    position: relative;
+    padding: 10px 10px 10px 56px;
+    list-style: none;
+    width: 50%;
+    color: #757575;
+    text-transform: capitalize !important;
+    width: 48%;
+    float: left;
+    font-size: 17px;
+    border: #ececec solid 1px;
+    border-radius: 5px;
+    margin: 5px 5px;
+    /* padding: 10px; */
+}
+
+.invoicingbox li:before {
+    content: "";
+    width: 25px;
+    height: 25px;
+    background: url(https://www.invoicera.com/common/new_images/common-sprite.png) no-repeat -43px -90px;
+    position: absolute;
+    left: 13px;
+    top: 10px;
+}
+
+.invoicingboxhome .trybtn {
+    background: #f0711d;
+    width: 240px;
+    height: 60px;
+    font-size: 17px;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 0 0;
+    z-index: 1;
+}
+
+.invoicingboxhome .trybtn:hover {
+    background: #000;
+    color: #fff;
+}
+
+.invoicingboxhome .link_request {
+    color: #f0711d;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 80px;
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    background: 0 0;
+    border: none;
+    padding: 0;
+}
+
+.invoicingboxhome .link_request {
+    color: #f0711d;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 80px;
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    background: 0 0;
+    border: none;
+    padding: 0;
+}
+
+.invoicingbox .link_request:before {
+    background: url(https://www.invoicera.com/common/new_images/online_invoice_or.png) no-repeat 0 0;
+    width: 29px;
+    height: 70px;
+    content: "";
+    left: -55px;
+    top: -22px;
+    position: absolute;
+}
+
+.invoicingboxhome .link_request:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.invoic_img {
+    width: 100%;
+}
+
+.invoicingboxhome_vedios .link_request {
+    color: #f0711d;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-left: 80px;
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    background: 0 0;
+    border: none;
+    padding: 0;
+}
+
+.invoicingboxhome_vedios .link_request::before {
+    background: url(https://www.invoicera.com/common/new_images/home_page_common_sprite.png) no-repeat 0 0;
+    width: 156px;
+    height: 130px;
+    content: "";
+    left: 101px;
+    top: 140px;
+    position: absolute;
+    background-position: -2px -382px;
+}
