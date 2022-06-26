@@ -1,0 +1,211 @@
+ul {
+    list-style: none;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+.custom_invoice_sec {
+    width: 100%;
+    padding: 20px 0 70px;
+}
+
+.custom_invoice_sec .inner_main {
+    background: #fff;
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+    padding: 50px 40px;
+}
+
+.titleb {
+    font-size: 35px;
+    position: relative;
+    margin-bottom: 45px;
+    color: #39393f;
+    font-weight: 400;
+    text-align: center;
+}
+
+.titleb:before {
+    background: #f60 none repeat scroll 0 0;
+    bottom: -20px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 25px;
+}
+
+.titleb span {
+    color: #39393f;
+}
+
+.custom_invoice_sec .service_box {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.custom_invoice_sec .service_box li {
+    width: 33.3%;
+    display: inline-block;
+    text-align: center;
+    float: left;
+    padding: 25px 40px;
+}
+
+.custom_invoice_sec .service_box small.icon1 {
+    background-position: 2px 2px;
+}
+
+
+.custom_invoice_sec .service_box small {
+    background: url(https://www.invoicera.com/common/new_images/home_sprite1.png) no-repeat;
+    width: 70px;
+    text-align: center;
+    height: 80px;
+    display: inline-block;
+    transition: all .9s ease 0s;
+}
+
+.custom_invoice_sec .service_box li h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #5f6368;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.custom_invoice_sec .service_box small.icon2 {
+    background-position: 0 -89px;
+}
+
+.custom_invoice_sec .service_box small.icon3 {
+    background-position: 2px -209px;
+}
+
+.custom_invoice_sec .btn_sec {
+    margin: 12px 0 24px;
+    text-align: center;
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #e5e5e5;
+    padding-bottom: 46px;
+}
+
+.custom_invoice_sec .btn_sec a {
+    display: inline-block;
+    width: 270px;
+    background: #f0711d;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 4px;
+    padding: 17px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.custom_invoice_sec .btn_sec a:hover {
+    background: #000;
+}
+
+.heading_sec {
+    width: 100%;
+    float: left;
+    padding: 10px 0 40px;
+}
+
+.heading_sec h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 65px;
+    color: #39393f;
+    font-weight: 400;
+}
+
+.heading_sec h2::after {
+    content: "";
+    background: #f60;
+    width: 26px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    bottom: 43px;
+}
+
+.custom_invoice_sec .Service_box_new {
+    width: 100%;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.custom_invoice_sec .Service_box_new li {
+    width: 33.3%;
+    display: inline-block;
+    text-align: center;
+    min-height: 285px;
+    float: left;
+    padding: 20px 20px;
+    border-bottom: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.custom_invoice_sec .Service_box_new small {
+    background: url(https://www.invoicera.com/common/new_images/home_sprite2.png) no-repeat;
+    width: 70px;
+    text-align: center;
+    height: 70px;
+    display: inline-block;
+    transition: all .9s ease 0s;
+}
+
+.custom_invoice_sec .Service_box_new li:hover {
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+}
+
+.custom_invoice_sec .Service_box_new li h3 {
+    font-size: 20px;
+    text-align: center;
+    color: #5f6368;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.custom_invoice_sec .Service_box_new li p {
+    font-size: 16px;
+    text-align: center;
+    color: #5f6368;
+    line-height: 25px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.custom_invoice_sec .Service_box_new small.icon2 {
+    background-position: 0 -100px;
+}
+
+.custom_invoice_sec .Service_box_new li.border_right {
+    border-right: none;
+}
+
+.custom_invoice_sec .Service_box_new small.icon3 {
+    background-position: 9px -209px;
+}
+
+.custom_invoice_sec .Service_box_new small.icon4 {
+    background-position: 9px -334px;
+}
+
+.custom_invoice_sec .Service_box_new small.icon5 {
+    background-position: 9px -461px;
+}
+
+.custom_invoice_sec .Service_box_new small.icon6 {
+    background-position: 5px -612px;
+}
