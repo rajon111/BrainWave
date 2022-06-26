@@ -1,0 +1,144 @@
+<section class=" invoicing_section address-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm1-2">
+                <div class="heading_sec_cont">
+                    <h1><span>CONTACT</span> US </h1>
+                    <p> Invoicera is helping thousands of businesses to invoice better.</p>
+                </div>
+            </div>
+        </div>
+        <form action="" method="post" name="frmContact" id="frmContact" role="form" class="contactform"
+            enctype="multipart/form-data" novalidate="novalidate"><input type="hidden" name="g-recaptcha-response">
+            <div id="contact_msg" style="display:none;"></div>
+            <div class="row mb-20">
+                <div class="heading_sec_cont">
+                    <h6> Please fill in details, we will get back to you shortly. </h6>
+                </div>
+                <div class="form-group col-lg-6">
+                    <div class="invalid-email-text">
+                        <label for="name">Your Name</label>
+                        <input type="text" name="name" class="form-control" id="user_name" placeholder="Enter Your Name"
+                            value="Name" onfocus="if(this.value==this.defaultValue)this.value='';"
+                            onblur="if(this.value=='')this.value=this.defaultValue;">
+                        <span class="invalid-email-2" id="user_name" style="display:none;"></span>
+                    </div>
+                </div>
+                <div class="form-group col-lg-6 invalid-email-text">
+                    <label for="email">Your Email</label>
+                    <input type="text" name="email" class="form-control" value="Email" id="email"
+                        placeholder="Enter Your Email" onfocus="if(this.value==this.defaultValue)this.value='';"
+                        onblur="if(this.value=='')this.value=this.defaultValue;">
+                    <span class="invalid-email-2" id="invalid_email"> </span>
+                </div>
+            </div>
+            <div class="row mb-20">
+                <div class="form-group col-lg-6 about">
+                    <label for="query-type">Type of Query</label>
+                    <select class="form-control select-box" name="about" id="about">
+                        <option value="" selected="selected">Type Of Query</option>
+                        <option value="Custom_Requirement">Custom Requirement</option>
+                        <option value="Partnership_Queries">Partnership Queries</option>
+                        <option value="General_Queries">General Queries</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+                <div class="form-group col-lg-3 invalid-email-text">
+                    <label for="phone">Phone No.</label>
+                    <input type="tel" name="phone" value="Phone" class="form-control" id="user-phone1"
+                        placeholder="Enter Your Phone" onkeyup="validate_phone2()"
+                        onfocus="if(this.value==this.defaultValue)this.value='';"
+                        onblur="if(this.value=='')this.value=this.defaultValue;">
+                    <span class="invalid-email-2" id="invalid_phone"> </span>
+                </div>
+                <div class="form-group col-lg-3 invalid-email-text">
+                    <label for="company">Company</label>
+                    <input type="text" name="company" value="Company" class="form-control" id="company"
+                        placeholder="Enter Your Company" onfocus="if(this.value==this.defaultValue)this.value='';"
+                        onblur="if(this.value=='')this.value=this.defaultValue;">
+                    <span class="invalid-email-2" id="invalid_company"></span>
+                </div>
+            </div>
+            <div class="full-width msgBox">
+                <div class="textarea-box">
+                    <textarea rows="5" cols="5" name="comment" id="user-req1" placeholder="Notes / Project brief*"
+                        value="comment" style="width: 100%" onfocus="if(this.value==this.defaultValue)this.value='';"
+                        onblur="if(this.value=='')this.value=this.defaultValue;"></textarea>
+                    <div class="Url-box">
+                        <div class="urlBox-inner" style="display: none;">
+                            <input type="text" value="http://" name="link2" class="link_url">
+                            <div class="okButton"> <a href="javascript:void(0);" onclick="list_add3()">ok</a> </div>
+                        </div>
+                    </div>
+                    <ul id="attach-list"></ul>
+                </div>
+                <div class="upfile_box_row">
+                    <div class="inner">
+                        <input type="file" name="upl" id="file-upl1" class="inputfile inputfile-3" multiple=""
+                            style="display: none;">
+                        <p> <a class="uploadFile" onclick="browse_file1();"> Browse</a><a
+                                onclick="url_link3();">Link</a> <a class="droup droup1">Drop Files here</a> </p>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <input name="contact_us" value="contact" type="hidden">
+            <input name="frmOrderFileUploadedfilename" id="frmOrderFileUploadedfilename" value="" type="hidden">
+            <div class="row">
+                <div class="col-lg-12 center">
+                    <div class="submit_btn">
+                        <input id="frmContactSubmit" type="submit" name="frmContactSubmit"
+                            class="contact-page-btn btn send-btn" value="Send" style="margin: 0">
+                    </div>
+                </div>
+            </div>
+            <input type="hidden" name="_contact" value="contact">
+        </form>
+    </div>
+</section>
+<section class="jumbotron text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <p>
+                    <picture>
+                        <source type="image/webp"
+                            srcset="https://www.invoicera.com/common/new_images/location-ico.webp">
+                        <source type="image/png" srcset="https://www.invoicera.com/common/new_images/location-ico.png">
+                        <img src="https://www.invoicera.com/common/new_images/location-ico.png" alt="Location"
+                            title="Location" width="50" height="50">
+                    </picture>
+                </p>
+                <p><b>Office Address</b></p>
+                <p>3rd Floor, Fusion Square, 5A &amp;; 5B, Sector 126, Uttara 201303, Dhaka Bangladesh</p>
+                <p>Second Floor Plot no 55 P, Sector 44 Gurugram, Bangladesh</p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                    <picture>
+                        <source type="image/webp" srcset="https://www.invoicera.com/common/new_images/support-ico.webp">
+                        <source type="image/png" srcset="https://www.invoicera.com/common/new_images/support-ico.png">
+                        <img src="https://www.invoicera.com/common/new_images/support-ico.png" alt="" width="50"
+                            height="50">
+                    </picture>
+                </p>
+                <p><b>Support</b></p>
+                <p><b>Email</b>: support@brainwave.com</p>
+                <p><b>Ph (IN)</b>: +8801747 979703 (10:00 am - 12:00 midnight BD)</p>
+            </div>
+            <div class="col-lg-4">
+                <p>
+                    <picture>
+                        <source type="image/webp" srcset="https://www.invoicera.com/common/new_images/sales-ico.webp">
+                        <source type="image/png" srcset="https://www.invoicera.com/common/new_images/sales-ico.png">
+                        <img src="https://www.invoicera.com/common/new_images/sales-ico.png" alt="Sales" title="Sales"
+                            width="50" height="50">
+                    </picture>
+                </p>
+                <p><b>Sales</b></p>
+                <p><b>Email</b>: sales@brainwave.com</p>
+                <p><b>Ph (IN)</b>: +8801747 979703 (10:00 am - 12:00 midnight BD)</p>
+            </div>
+        </div>
+    </div>
+</section>

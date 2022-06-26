@@ -1,0 +1,213 @@
+.heading_sec_cont {
+    width: 100%;
+    float: left;
+    padding: 10px 0 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.invoicing_section {
+    padding: 9.5% 0 2% 0;
+}
+
+.heading_sec_cont h1 {
+    text-align: center;
+    font-size: 58px;
+    line-height: 68px;
+    color: #39393f;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.heading_sec_cont h1 span {
+    color: #f60;
+}
+
+/* .heading_sec_cont h1::after {
+    content: "";
+    background: #f60;
+    width: 26px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    bottom: 90px;
+} */
+.heading_sec_cont p {
+    font-size: 22px;
+    line-height: 32px;
+    text-align: center;
+    color: #212121;
+    font-weight: 400;
+}
+
+.contactform {
+    padding: 0 80px 80px 80px;
+    margin: 0 0 80px 0;
+    box-shadow: 0 10px 29px 0 rgb(68 88 144 / 3%);
+    color: #939d9f;
+}
+
+.heading_sec_cont {
+    width: 100%;
+    float: left;
+    padding: 10px 0 20px;
+}
+
+.heading_sec_cont h6 {
+    font-size: 15px;
+    text-align: left;
+    color: #39393f;
+    text-align: center;
+}
+
+.contactform .form-control {
+    border-radius: 0;
+    line-height: 30px;
+    height: 50px;
+}
+
+.select-box {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url(https://www.invoicera.com/common/new_images/down-ico.png) no-repeat right 3% center;
+    color: #939d9f;
+    font-size: 14px;
+    height: 50px !important;
+}
+
+.full-width.msgBox {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 183px;
+    border: 1px solid #d9dce0;
+}
+
+.textarea-box {
+    background: #fff;
+    border-radius: 0;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+
+.full-width.msgBox textarea {
+    width: 100%;
+    float: left;
+    position: relative;
+    min-height: 190px;
+    padding: 15px;
+    color: #616569;
+    font-family: DINPro-Regular;
+    font-size: 14.3px;
+    border: none;
+    outline: #ffdead;
+}
+
+
+.full-width.msgBox .Url-box {
+    width: 97%;
+}
+
+.full-width.msgBox .urlBox-inner {
+    position: relative;
+    width: 98%;
+    float: left;
+    border: 1px solid #29aae3;
+    padding: 10px;
+    margin-left: 12px;
+}
+
+.full-width.msgBox .urlBox-inner .okButton {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+}
+
+.full-width.msgBox .urlBox-inner .okButton a {
+    color: #067cbe;
+    text-transform: uppercase;
+    font-size: 10px;
+    border: 1px solid #067cbe;
+    padding: 8px 10px;
+    line-height: 32px;
+}
+
+#attach-list {
+    float: left;
+    margin: 0 15px;
+    font-size: 13px;
+    max-height: 92px;
+    z-index: 2;
+    color: #828282;
+    overflow: auto;
+    width: 97%;
+    background: #fff;
+}
+
+.full-width .upfile_box_row {
+    width: 100%;
+    float: left;
+    background: #f6f6f6;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.full-width .upfile_box_row .inner {
+    width: 34%;
+    float: left;
+    margin: 0 40px;
+    border: 1px solid #d2d2d2;
+    background: #fff;
+    margin: 7px 10px;
+}
+
+.full-width .upfile_box_row .inner::before {
+    content: url(https://www.invoicera.com/common/new_images/mail_icons.jpg);
+    position: absolute;
+    bottom: 25px;
+    left: 20px;
+}
+
+.full-width .upfile_box_row .inner p {
+    margin-bottom: 11px;
+}
+
+.full-width .upfile_box_row .inner p a {
+    border-right: none !important;
+}
+
+.full-width .upfile_box_row .inner p a {
+    display: inline-block;
+    padding: 3px 26px;
+    cursor: pointer;
+    font-size: 12px;
+    color: #5a5a5a;
+}
+
+.full-width .upfile_box_row .inner p a:last-child {
+    border: 1px dashed #b1b1b1 !important;
+    margin-top: 8px;
+    background: #efe9e9;
+}
+
+.submit_btn {
+    margin-top: 40px;
+}
+
+.send-btn {
+    background: #f0711d;
+    color: #fff;
+    width: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 33px;
+    font-size: 22px;
+    text-transform: uppercase;
+}
