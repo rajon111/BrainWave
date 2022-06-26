@@ -16,6 +16,7 @@ import { PaymentGetwayComponent } from './payment-getway/payment-getway.componen
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { FaqComponent } from './faq/faq.component';
 import { JoinUsComponent } from './join-us/join-us.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { JoinUsComponent } from './join-us/join-us.component';
     PaymentGetwayComponent,
     TestimonialsComponent,
     FaqComponent,
-    JoinUsComponent
+    JoinUsComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
