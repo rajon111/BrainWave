@@ -12,6 +12,7 @@ import { AllBusinessComponent } from './all-business/all-business.component';
 import { InvoiceSolutionComponent } from './invoice-solution/invoice-solution.component';
 import { ChooseBestComponent } from './choose-best/choose-best.component';
 import { AccessInvoiceComponent } from './access-invoice/access-invoice.component';
+import { PaymentGetwayComponent } from './payment-getway/payment-getway.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { AccessInvoiceComponent } from './access-invoice/access-invoice.componen
     AllBusinessComponent,
     InvoiceSolutionComponent,
     ChooseBestComponent,
-    AccessInvoiceComponent
+    AccessInvoiceComponent,
+    PaymentGetwayComponent
   ],
   imports: [
     BrowserModule,

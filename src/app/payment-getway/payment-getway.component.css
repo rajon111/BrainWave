@@ -1,0 +1,114 @@
+.titleb.h2_int {
+    font-size: 42px;
+    text-transform: capitalize;
+    color: #39393f;
+}
+
+.titleb:before {
+    background: #f60 none repeat scroll 0 0;
+    bottom: -20px;
+    content: "";
+    height: 3px;
+    left: 50%;
+    margin-left: -13px;
+    position: absolute;
+    width: 25px;
+}
+
+.titleb span {
+    color: #39393f;
+}
+
+.Payment_Gateways {
+    background: #f8f8f8;
+}
+
+.Payment_Gateways .inner_sec {
+    margin: 20px 0;
+    float: left;
+    width: 100%;
+}
+
+.Payment_Gateways .inner_sec ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Payment_Gateways .inner_sec ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.Payment_Gateways .inner_sec ul li {
+    padding: 20px;
+    border: 1px solid #ebebeb;
+    border-radius: 5px;
+    display: inline-block;
+    width: 22.2%;
+    margin: 10px 10px;
+}
+
+.Payment_Gateways .inner_sec ul li small.icon1 {
+    background-position: 0 -16px;
+}
+
+.Payment_Gateways .inner_sec ul li small {
+    background: url(https://www.invoicera.com/common/new_images/payment_gatway.png) no-repeat;
+    float: left;
+    width: 250px;
+    text-align: left;
+    height: 78px;
+    display: inline-block;
+    transition: all .9s ease 0s;
+}
+
+.Payment_Gateways .inner_sec ul li small.icon2 {
+    background-position: -22px -169px;
+}
+
+.Payment_Gateways .inner_sec ul li small.icon3 {
+    background-position: -6px -344px;
+}
+
+.Payment_Gateways .inner_sec ul li small.icon4 {
+    background-position: -15px -531px;
+}
+
+.Payment_Gateways .inner_sec ul li small.icon5 {
+    background-position: -16px -720px;
+}
+
+.Payment_Gateways .inner_sec ul li small.icon6 {
+    background-position: -20px -892px;
+}
+
+.Payment_Gateways .inner_sec ul li small.icon7 {
+    background-position: -7px -1020px;
+}
+
+.Payment_Gateways .inner_sec ul li small.icon8 {
+    background-position: -9px -1176px;
+}
+
+.Payment_Gateways .inner_sec .view_btn {
+    margin: 40px 0 0;
+    text-align: center;
+}
+
+.Payment_Gateways .inner_sec .view_btn a {
+    display: inline-block;
+    background: #f0711d;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 0;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.Payment_Gateways .inner_sec .view_btn a:hover {
+    background: #000;
+}
