@@ -18,6 +18,7 @@ import { FaqComponent } from './faq/faq.component';
 import { JoinUsComponent } from './join-us/join-us.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
     FaqComponent,
     JoinUsComponent,
     FooterComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
