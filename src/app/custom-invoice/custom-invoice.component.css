@@ -127,7 +127,7 @@ a {
     font-weight: 400;
 }
 
-.heading_sec h2::after {
+/* .heading_sec h2::after {
     content: "";
     background: #f60;
     width: 26px;
@@ -135,7 +135,7 @@ a {
     position: absolute;
     left: 50%;
     bottom: 43px;
-}
+} */
 
 .custom_invoice_sec .Service_box_new {
     width: 100%;

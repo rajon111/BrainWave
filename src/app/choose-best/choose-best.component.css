@@ -21,7 +21,7 @@ a {
     color: #f60;
 }
 
-.heading_sec_home h2::after {
+/* .heading_sec_home h2::after {
     content: "";
     background: #f60;
     width: 26px;
@@ -29,7 +29,7 @@ a {
     position: absolute;
     left: 50%;
     bottom: 110px;
-}
+} */
 
 .heading_sec_home p {
     font-size: 20px;
@@ -209,7 +209,7 @@ a {
     font-weight: 400;
 }
 
-.choose_the_best .yellow_box .heading_sec_home h2::after {
+/* .choose_the_best .yellow_box .heading_sec_home h2::after {
     content: "";
     background: #000;
     width: 26px;
@@ -217,7 +217,7 @@ a {
     position: absolute;
     left: 50%;
     bottom: 145px;
-}
+} */
 
 .choose_the_best .yellow_box .contect_btn {
     width: 100%;

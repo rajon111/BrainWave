@@ -20,7 +20,7 @@ a {
     color: #f60;
 }
 
-.heading_sec_home h2::after {
+/* .heading_sec_home h2::after {
     content: "";
     background: #f60;
     width: 26px;
@@ -28,7 +28,7 @@ a {
     position: absolute;
     left: 50%;
     bottom: 110px;
-}
+} */
 
 .heading_sec_home p {
     font-size: 20px;

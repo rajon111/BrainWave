@@ -10,7 +10,7 @@ ul {
     font-weight: 400;
 }
 
-.titleb:before {
+/* .titleb:before {
     background: #f60 none repeat scroll 0 0;
     bottom: -20px;
     content: "";
@@ -19,4 +19,4 @@ ul {
     margin-left: -13px;
     position: absolute;
     width: 25px;
-}
+} */
