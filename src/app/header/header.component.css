@@ -5,14 +5,12 @@
     z-index: 9;
 }
 
-
-
 .top {
     background-color: transparent;
 }
 
 .bottom {
-    transition: all 0.3s;
+    transition: linear 0.2s;
     background-color: #FDFFFF;
     box-shadow: 2px 5px 5px 0px rgba(179, 179, 179, 0.48);
     -webkit-box-shadow: 2px 5px 5px 0px rgba(179, 179, 179, 0.48);

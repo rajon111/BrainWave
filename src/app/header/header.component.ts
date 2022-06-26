@@ -13,8 +13,10 @@ export class HeaderComponent implements OnInit {
   }
   @HostListener('window:scroll', [])
   onScroll(): void {
-    if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
+    if (window.scrollY) {
       this.isBottom = true;
+      console.log(document.body.offsetHeight);
+      console.log(window.scrollY);
     } else {
       this.isBottom = false;
     }

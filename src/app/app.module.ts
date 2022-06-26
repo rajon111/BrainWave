@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { InvoiceingSectionComponent } from './invoiceing-section/invoiceing-section.component';
+import { CustomInvoiceComponent } from './custom-invoice/custom-invoice.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    InvoiceingSectionComponent
+    InvoiceingSectionComponent,
+    CustomInvoiceComponent
   ],
   imports: [
     BrowserModule,
