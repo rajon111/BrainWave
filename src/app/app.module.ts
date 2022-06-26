@@ -11,6 +11,7 @@ import { WorkableFeatureComponent } from './workable-feature/workable-feature.co
 import { AllBusinessComponent } from './all-business/all-business.component';
 import { InvoiceSolutionComponent } from './invoice-solution/invoice-solution.component';
 import { ChooseBestComponent } from './choose-best/choose-best.component';
+import { AccessInvoiceComponent } from './access-invoice/access-invoice.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ChooseBestComponent } from './choose-best/choose-best.component';
     WorkableFeatureComponent,
     AllBusinessComponent,
     InvoiceSolutionComponent,
-    ChooseBestComponent
+    ChooseBestComponent,
+    AccessInvoiceComponent
   ],
   imports: [
     BrowserModule,

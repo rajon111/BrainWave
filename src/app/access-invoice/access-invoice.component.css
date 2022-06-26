@@ -1,0 +1,83 @@
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding-top: 80px;
+}
+
+.access_invoicera_home {
+    padding-bottom: 0;
+    background: #fc9048 url(https://www.invoicera.com/common/new_images/small-business_mobile_invoicein_bg.png) bottom no-repeat;
+}
+
+.access_invoicera_home .content_box {
+    padding: 0;
+    margin-top: 0;
+}
+
+.access_invoicera_home .content_box h3 {
+    font-size: 46px;
+    text-align: left;
+    color: #fff;
+    font-weight: 400;
+}
+
+.access_invoicera_home .content_box li {
+    margin: 0;
+    padding: 6px 0;
+    color: #fff;
+    font-size: 16px;
+    padding-left: 0;
+    background-size: 90px;
+    background-position: -40px -370px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.access_invoicera_home .btn_box {
+    clear: both;
+    margin-top: 40px;
+    text-align: left;
+}
+
+.access_invoicera_home .btn_box a {
+    display: inline-block;
+    padding: 6px 18px;
+    margin: 0 20px 0 0;
+    border: 2px solid #fff;
+    font-size: 20px;
+    color: #fff;
+    width: 212px;
+}
+
+.fa-apple:before {
+    content: "\f179";
+}
+
+.access_invoicera_home .btn_box a span {
+    font-size: 14px;
+}
+
+.access_invoicera_home .img_box {
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.access_invoicera_home .btn_box a i {
+    float: left;
+    margin: 0 20px 0 0;
+    font-size: 55px;
+    display: block;
+}
+
+.fa-android:before {
+    content: "\f17b";
+    font-size: 40px;
+}
