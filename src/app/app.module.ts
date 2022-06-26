@@ -10,6 +10,7 @@ import { CustomInvoiceComponent } from './custom-invoice/custom-invoice.componen
 import { WorkableFeatureComponent } from './workable-feature/workable-feature.component';
 import { AllBusinessComponent } from './all-business/all-business.component';
 import { InvoiceSolutionComponent } from './invoice-solution/invoice-solution.component';
+import { ChooseBestComponent } from './choose-best/choose-best.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { InvoiceSolutionComponent } from './invoice-solution/invoice-solution.co
     CustomInvoiceComponent,
     WorkableFeatureComponent,
     AllBusinessComponent,
-    InvoiceSolutionComponent
+    InvoiceSolutionComponent,
+    ChooseBestComponent
   ],
   imports: [
     BrowserModule,
