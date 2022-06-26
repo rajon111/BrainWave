@@ -15,6 +15,7 @@ import { AccessInvoiceComponent } from './access-invoice/access-invoice.componen
 import { PaymentGetwayComponent } from './payment-getway/payment-getway.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
 import { FaqComponent } from './faq/faq.component';
+import { JoinUsComponent } from './join-us/join-us.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { FaqComponent } from './faq/faq.component';
     AccessInvoiceComponent,
     PaymentGetwayComponent,
     TestimonialsComponent,
-    FaqComponent
+    FaqComponent,
+    JoinUsComponent
   ],
   imports: [
     BrowserModule,
