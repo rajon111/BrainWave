@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;
+}
+
+.heading_sec_home {
+    width: 100%;
+    float: left;
+    padding: 0 0 30px;
+}
+
+.heading_sec_home h2 {
+    text-align: center;
+    font-size: 48px;
+    line-height: 52px;
+    color: #39393f;
+    font-weight: 400;
+}
+
+.heading_sec_home h2 span {
+    color: #f60;
+}
+
+.heading_sec_home h2::after {
+    content: "";
+    background: #f60;
+    width: 26px;
+    height: 3px;
+    position: absolute;
+    left: 50%;
+    bottom: 110px;
+}
+
+.heading_sec_home p {
+    font-size: 20px;
+    text-align: center;
+    color: #757575;
+    padding-top: 30px;
+}
+
+.invoicing_solution_sec .inner_sec {
+    margin: 10px 0;
+}
+
+.invoicing_solution_sec .inner_sec .development_box {
+    width: 100%;
+    display: inline-block;
+    margin: 0 0;
+    padding: 8px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon8 {
+    background-position: 0 -890px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small {
+    background: url(https://www.invoicera.com/common/new_images/home_sprite3.png) no-repeat;
+    float: left;
+    width: 100px;
+    text-align: left;
+    height: 78px;
+    display: inline-block;
+    transition: all .9s ease 0s;
+}
+
+.invoicing_solution_sec .inner_sec .development_box .text_content {
+    width: 70%;
+    float: left;
+}
+
+.invoicing_solution_sec .inner_sec .development_box .text_content h3 {
+    font-size: 18px;
+    text-align: left;
+    color: #5f6368;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.invoicing_solution_sec .inner_sec .development_box .text_content p {
+    font-size: 14px;
+    text-align: left;
+    color: #5f6368;
+    line-height: 22px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box:hover {
+    box-shadow: 0 0 30px rgb(0 0 0 / 10%);
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon2 {
+    background-position: 0 -88px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon3 {
+    background-position: 0 -210px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon4 {
+    background-position: 0 -326px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon6 {
+    background-position: 0 -600px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon7 {
+    background-position: 0 -748px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon5 {
+    background-position: 0 -452px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon9 {
+    background-position: 0 -1058px;
+}
+
+.invoicing_solution_sec .inner_sec .development_box small.icon1 {
+    background-position: 0 0;
+}
