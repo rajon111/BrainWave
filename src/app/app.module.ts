@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { InvoiceingSectionComponent } from './invoiceing-section/invoiceing-section.component';
 import { CustomInvoiceComponent } from './custom-invoice/custom-invoice.component';
 import { WorkableFeatureComponent } from './workable-feature/workable-feature.component';
+import { AllBusinessComponent } from './all-business/all-business.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { WorkableFeatureComponent } from './workable-feature/workable-feature.co
     HeaderComponent,
     InvoiceingSectionComponent,
     CustomInvoiceComponent,
-    WorkableFeatureComponent
+    WorkableFeatureComponent,
+    AllBusinessComponent
   ],
   imports: [
     BrowserModule,
