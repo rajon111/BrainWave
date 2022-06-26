@@ -7,13 +7,15 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HeaderComponent } from './header/header.component';
 import { InvoiceingSectionComponent } from './invoiceing-section/invoiceing-section.component';
 import { CustomInvoiceComponent } from './custom-invoice/custom-invoice.component';
+import { WorkableFeatureComponent } from './workable-feature/workable-feature.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     InvoiceingSectionComponent,
-    CustomInvoiceComponent
+    CustomInvoiceComponent,
+    WorkableFeatureComponent
   ],
   imports: [
     BrowserModule,
