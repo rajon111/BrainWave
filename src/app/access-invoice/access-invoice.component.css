@@ -81,3 +81,16 @@ section {
     content: "\f17b";
     font-size: 40px;
 }
+
+/* 
+======================================
+mobile
+======================================
+ */
+
+ @media screen and (max-width:480px) {
+    img{
+        width: 95%;
+    }
+    
+ }

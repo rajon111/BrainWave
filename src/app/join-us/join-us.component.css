@@ -46,7 +46,7 @@ a {
     background: #fff;
     border: #fff solid 2px;
     color: #000;
-    width: 300px;
+    width: 100%;
     height: 64px;
     line-height: 64px;
     text-transform: uppercase;
@@ -69,7 +69,7 @@ a {
     border: #fff solid 2px;
     background: 0 0;
     color: #fff;
-    width: 300px;
+    width: 100%;
     height: 64px;
     line-height: 64px;
     text-transform: uppercase;

@@ -112,3 +112,21 @@
 .Payment_Gateways .inner_sec .view_btn a:hover {
     background: #000;
 }
+
+/* 
+======================================
+mobile
+======================================
+ */
+ 
+@media screen and (max-width:480px) {
+    .Payment_Gateways .inner_sec .logos a li{
+        width: 100% !important
+    }
+ 
+    .logos{
+        display: flex;
+        flex-direction: column;
+
+    }
+}

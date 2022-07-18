@@ -209,3 +209,30 @@ a {
 .custom_invoice_sec .Service_box_new small.icon6 {
     background-position: 5px -612px;
 }
+
+/* 
+======================================
+mobile
+======================================
+ */
+
+ @media screen and (max-width:480px) {
+    .service_box{
+        display: flex;
+        flex-direction: column;
+    }
+    .service_box li{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Service_box_new li{
+        width: 100% !important;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+ }

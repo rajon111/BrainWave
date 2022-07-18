@@ -110,3 +110,18 @@
         border: #000 solid 2px;
     }
 }
+
+/* 
+======================================
+mobile
+======================================
+ */
+
+ @media screen and (max-width:480px) {
+    img{
+        width: 200px;
+    }
+    .invoicingbox h1{
+        font-size: 34px !important;
+    }
+ }
