@@ -119,19 +119,46 @@ mobile
 ======================================
  */
  
+
+
+@media screen and (max-width:1199px) {
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5px;
+
+    }
+    .Payment_Gateways .inner_sec .logos a li{
+        width: 100% !important
+    }
+}
+
+@media screen and (max-width:1000px) {
+    .logos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+
+    }
+    .Payment_Gateways .inner_sec .logos a li{
+        width: 100% !important
+    }
+}
 @media screen and (max-width:600px) {
     .Payment_Gateways .inner_sec .logos a li{
         width: 100% !important
     }
  
     .logos{
-        display: flex;
-        flex-direction: column;
-
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5px;
     }
+
     .container{
         overflow-x: hidden;
     }
+    
     .titleb.h2_int{
         font-size: 38px;
     }
