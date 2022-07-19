@@ -9,6 +9,10 @@ ul {
     color: #39393f;
     font-weight: 400;
 }
+.container{
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+}
 
 /* .titleb:before {
     background: #f60 none repeat scroll 0 0;

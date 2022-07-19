@@ -7,3 +7,7 @@
     width: 100%;
     float: left;
 }
+body{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}

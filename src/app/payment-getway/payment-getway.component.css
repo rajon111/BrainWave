@@ -119,7 +119,7 @@ mobile
 ======================================
  */
  
-@media screen and (max-width:480px) {
+@media screen and (max-width:600px) {
     .Payment_Gateways .inner_sec .logos a li{
         width: 100% !important
     }
@@ -128,5 +128,8 @@ mobile
         display: flex;
         flex-direction: column;
 
+    }
+    .container{
+        overflow-x: hidden;
     }
 }
