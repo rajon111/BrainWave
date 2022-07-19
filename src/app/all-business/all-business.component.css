@@ -151,3 +151,14 @@ a {
 .content_home .content_box .row .contentText small.icon3 {
     background-position: -20px -358px;
 }
+/* 
+======================================
+mobile
+======================================
+ */
+ 
+ /* @media screen and (max-width:600px){
+    .list{
+        width: 100% !important;
+    }
+ } */
