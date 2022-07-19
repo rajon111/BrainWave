@@ -157,8 +157,9 @@ mobile
 ======================================
  */
  
- /* @media screen and (max-width:600px){
-    .list{
-        width: 100% !important;
+ @media screen and (max-width:600px){
+    .titleb.h2_int{
+        font-size: 38px;
+        margin-top: -250px;
     }
- } */
+ }

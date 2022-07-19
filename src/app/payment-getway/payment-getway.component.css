@@ -132,4 +132,7 @@ mobile
     .container{
         overflow-x: hidden;
     }
+    .titleb.h2_int{
+        font-size: 38px;
+    }
 }

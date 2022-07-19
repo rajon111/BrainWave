@@ -235,4 +235,20 @@ mobile
         justify-content: center;
         align-items: center;
     }
+    .custom_invoice_sec .btn_sec a{
+        width: 220px;
+    }
  }
+
+ /* 
+======================================
+mobile
+======================================
+ */
+ 
+@media screen and (max-width:600px){
+    .heading_sec h2{
+        font-size: 38px;
+    }
+    
+}

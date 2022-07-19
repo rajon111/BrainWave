@@ -164,5 +164,8 @@ mobile
     img{
         width: 100%;
     }
+    .titleb.h2_int{
+        font-size: 38px;
+    }
     
  }

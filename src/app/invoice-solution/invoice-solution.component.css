@@ -119,3 +119,16 @@ a {
 .invoicing_solution_sec .inner_sec .development_box small.icon1 {
     background-position: 0 0;
 }
+
+ /* 
+======================================
+mobile
+======================================
+ */
+ 
+ @media screen and (max-width:600px){
+    .heading_sec_home h2{
+        font-size: 38px;
+    }
+    
+}
