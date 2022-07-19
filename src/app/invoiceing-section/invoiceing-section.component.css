@@ -66,6 +66,8 @@ ul {
 }
 
 .invoicingboxhome .trybtn {
+
+    
     background: #f0711d;
     width: 240px;
     height: 60px;
@@ -168,5 +170,39 @@ mobile
     }
     .invoicingbox li{
         width: 100%;
+    }
+    .invoicingboxhome .trybtn{
+    background: #f0711d;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    display: inline-block;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 4px;
+    margin: 0 0;
+    z-index: 1;
+    }
+    .invoicingbox .link_request:before {
+      display: none;
+    }
+    .invoicingboxhome .link_request {
+        color: #f0711d;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 17px;
+        text-decoration: none;
+        position: relative;
+        background: 0 0;
+        border: none;
+        padding: 0;
     }
  }
