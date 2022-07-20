@@ -19,6 +19,7 @@ import { JoinUsComponent } from './join-us/join-us.component';
 import { FooterComponent } from './footer/footer.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
+import { ModalModule } from 'ngx-bootstrap/modal';
 
 @NgModule({
   declarations: [
@@ -42,8 +43,10 @@ import { HomeComponent } from './home/home.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    ModalModule.forRoot()
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -166,9 +166,9 @@ mobile
  }
 
  @media screen and (max-width:900px){
-    .business-container{
+    /* .business-container{
         text-align: center;
-    }
+    } */
     .content_home .btn_sec a{
         width: 180px;
         font-size: 15px;
