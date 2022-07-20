@@ -54,6 +54,9 @@ ul {
     margin: 5px 5px;
     /* padding: 10px; */
 }
+.mooooo{
+    width: 100%;
+}
 
 .invoicingbox li:before {
     content: "";
