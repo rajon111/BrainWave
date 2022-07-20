@@ -148,6 +148,16 @@ mobile
     .Payment_Gateways .inner_sec .logos a li{
         width: 100% !important
     }
+    /*  */
+    .Payment_Gateways .inner_sec ul li{
+        width: 100% !important;
+    }
+    .Payment_Gateways .inner_sec ul li small{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
  
     .logos{
         display: grid;

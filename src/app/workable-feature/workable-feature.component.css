@@ -177,4 +177,9 @@ mobile
     img{
         width: 100%;
     }
+    .detailTab .btn_sec a{
+        width: 180px;
+        padding: 10px 0;
+        font-size: .75rem;
+    }
  }

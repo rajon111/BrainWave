@@ -166,6 +166,7 @@ mobile
  @media screen and (max-width:600px){
     .invoicingboxhome h1{
         font-size: 38px;
+        
         /* line-height: 40px; */
     }
     .invoicingbox li{
@@ -176,6 +177,7 @@ mobile
     width: 200px;
     height: 40px;
     font-size: 15px;
+    margin-left: 25% !important;
     display: inline-block;
     text-align: center;
     display: flex;
@@ -185,8 +187,9 @@ mobile
     line-height: 60px;
     text-transform: uppercase;
     font-weight: 700;
+    
     border-radius: 4px;
-    margin: 0 0;
+    margin-bottom: 5px !important;
     z-index: 1;
     }
     .invoicingbox .link_request:before {
@@ -196,7 +199,7 @@ mobile
         color: #f0711d;
         font-weight: 700;
         text-transform: uppercase;
-        margin-left: 10px;
+        margin-left: 26%;
         margin-top: 10px;
         font-size: 17px;
         text-decoration: none;

@@ -162,4 +162,18 @@ mobile
         font-size: 38px;
         margin-top: -250px;
     }
+    
+ }
+
+ @media screen and (max-width:900px){
+    .business-container{
+        text-align: center;
+    }
+    .content_home .btn_sec a{
+        width: 180px;
+        font-size: 15px;
+        padding: 10px 0;
+    }
+
+
  }

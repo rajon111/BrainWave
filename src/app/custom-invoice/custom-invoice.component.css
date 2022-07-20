@@ -236,7 +236,9 @@ mobile
         align-items: center;
     }
     .custom_invoice_sec .btn_sec a{
-        width: 220px;
+        width: 180px;
+        padding: 10px 0;
+        font-size: .75rem;
     }
     .heading_sec h2{
         font-size: 38px;

@@ -211,3 +211,15 @@ a {
     font-size: 22px;
     text-transform: uppercase;
 }
+
+/* 
+======================================
+mobile
+======================================
+ */
+
+ @media screen and (max-width:600px) {
+    .heading_sec_cont h1{
+        font-size: 38px;
+    }
+ }
