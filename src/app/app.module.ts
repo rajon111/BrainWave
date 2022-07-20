@@ -20,6 +20,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ModalModule } from 'ngx-bootstrap/modal';
     JoinUsComponent,
     FooterComponent,
     ContactUsComponent,
-    HomeComponent
+    HomeComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
