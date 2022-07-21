@@ -91,7 +91,7 @@
     background-position: -9px -1176px;
 }
 
-.Payment_Gateways .inner_sec .view_btn {
+/* .Payment_Gateways .inner_sec .view_btn {
     margin: 40px 0 0;
     text-align: center;
 }
@@ -111,11 +111,41 @@
 
 .Payment_Gateways .inner_sec .view_btn a:hover {
     background: #000;
+} */
+
+.new-payment{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+.view_btn {
+    margin: 40px 0 0;
+    text-align: center;
+}
+.view_btn a {
+    display: inline-block;
+    background: #f0711d;
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 13px 0;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+.view_btn a:hover {
+    background:darkslategrey;
+}
+.card:hover{
+    background-color:#f8f8f8;
+    /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2); */
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* 
 ======================================
-mobile
+              mobile
 ======================================
  */
  
@@ -131,6 +161,11 @@ mobile
     .Payment_Gateways .inner_sec .logos a li{
         width: 100% !important
     }
+    .new-payment{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(3,1fr);
+    }
 }
 
 @media screen and (max-width:1000px) {
@@ -141,8 +176,23 @@ mobile
 
     }
     .Payment_Gateways .inner_sec .logos a li{
-        width: 100% !important
+        width: 90% !important
     }
+    .new-payment{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (max-width:670px){
+    .new-payment{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        margin-left: 20%;
+    }
+    
 }
 @media screen and (max-width:600px) {
     .Payment_Gateways .inner_sec .logos a li{
@@ -163,6 +213,7 @@ mobile
         display: grid;
         grid-template-columns: 1fr;
         gap: 5px;
+        width: 85%;
     }
 
     .container{
