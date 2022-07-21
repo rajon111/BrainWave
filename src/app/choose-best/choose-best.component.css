@@ -248,10 +248,33 @@ img{
 mobile
 ======================================
  */
- 
+
+ @media screen and (max-width:1199px){
+    .choose_the_best .plan_inner .box_border .plan_scricle{
+        padding: 24px 0;
+        margin: -80px 84px 0;
+        width: 155px;
+    }
+ }
+ @media screen and (max-width:767px){
+    .choose_the_best .plan_inner .box_border .plan_scricle{
+        margin: -84px 150px 0;
+    }
+    img{
+        width: 60%;
+    }
+ } 
  @media screen and (max-width:600px){
     .heading_sec_home h2{
         font-size: 38px;
     }
     
 }
+ 
+
+ @media screen and (max-width:479px){
+    .choose_the_best .plan_inner .box_border .plan_scricle{
+        margin: -84px 88px 0;
+    }
+ }
+ 
