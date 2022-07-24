@@ -1,0 +1,13 @@
+.ast-container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 100%;
+}
+
+@media (min-width:922px) {
+    .ast-container{
+        max-width: 1240px;
+    }
+}

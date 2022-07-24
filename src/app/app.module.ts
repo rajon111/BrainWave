@@ -21,6 +21,17 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { HomeComponent } from './home/home.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { AboutComponent } from './about/about.component';
+import { SolutionComponent } from './solution/solution.component';
+import { ServiceComponent } from './service/service.component';
+import { OfferComponent } from './offer/offer.component';
+import { ResourceComponent } from './resource/resource.component';
+import { PluginsComponent } from './plugins/plugins.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { SolutionForIndustryComponent } from './solution-for-industry/solution-for-industry.component';
+import { SupplyChainManagementSystemComponent } from './supply-chain-management-system/supply-chain-management-system.component';
+import { CustomEcommerceWebsiteComponent } from './custom-ecommerce-website/custom-ecommerce-website.component';
+import { SanitrayManagementSystemComponent } from './sanitray-management-system/sanitray-management-system.component';
 
 @NgModule({
   declarations: [
@@ -40,12 +51,23 @@ import { AboutComponent } from './about/about.component';
     FooterComponent,
     ContactUsComponent,
     HomeComponent,
-    AboutComponent
+    AboutComponent,
+    SolutionComponent,
+    ServiceComponent,
+    OfferComponent,
+    ResourceComponent,
+    PluginsComponent,
+    SolutionForIndustryComponent,
+    SupplyChainManagementSystemComponent,
+    CustomEcommerceWebsiteComponent,
+    SanitrayManagementSystemComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    BrowserAnimationsModule,
+    BsDropdownModule.forRoot(),
     ModalModule.forRoot()
   ],
   

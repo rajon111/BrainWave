@@ -1,0 +1,16 @@
+/* img{
+    width: 900px;
+    height: 600px;
+} */
+.img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+   
+}
+.img-divv{
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}

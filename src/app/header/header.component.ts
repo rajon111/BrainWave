@@ -15,8 +15,10 @@ export class HeaderComponent implements OnInit {
   onScroll(): void {
     if (window.scrollY) {
       this.isBottom = true;
-      console.log(document.body.offsetHeight);
-      console.log(window.scrollY);
+      // console.log(document.body.offsetHeight);
+      // console.log(window.scrollY);
+      // console.log('');
+      // console.log('');
     } else {
       this.isBottom = false;
     }
